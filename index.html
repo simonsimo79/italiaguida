@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#008751">
+    <title>ItaliaGuida - إرشادات إيطاليا</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icona-corretta.png?v=3">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; background-color: #f8faf9; margin: 0; padding: 0; color: #333; }
+        header { background: white; padding: 30px 20px; text-align: center; box-shadow: 0 2px 15px rgba(0,0,0,0.05); border-bottom: 3px solid #008751; }
+        .logo { width: 90px; height: 90px; border-radius: 50%; object-fit: cover; margin-bottom: 10px; border: 3px solid #008751; }
+        h1 { margin: 0; color: #008751; font-size: 1.6rem; }
+        .arabic-title { font-size: 1.3rem; color: #444; margin: 5px 0; font-weight: 600; }
+        .container { padding: 20px; max-width: 500px; margin: auto; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+        .card { background: white; padding: 20px; border-radius: 18px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); text-decoration: none; color: inherit; display: flex; flex-direction: column; align-items: center; text-align: center; border: 1px solid #eee; transition: transform 0.2s; }
+        .card:active { transform: scale(0.95); background-color: #f0f0f0; }
+        .card span { font-size: 2.5rem; margin-bottom: 10px; }
+        .card h3 { font-size: 0.85rem; margin: 5px 0; line-height: 1.2; }
+        .card p { font-size: 0.75rem; color: #008751; font-weight: 600; margin: 0; }
+        .newsletter { background: #008751; color: white; padding: 30px 20px; margin-top: 30px; text-align: center; border-radius: 25px 25px 0 0; }
+        .newsletter h3 { margin-top: 0; font-size: 1.2rem; }
+        .newsletter input { width: 90%; padding: 12px; border-radius: 10px; border: none; margin: 15px 0; font-size: 1rem; }
+        .newsletter button { background: #ffcc00; color: #333; border: none; padding: 12px 25px; border-radius: 10px; font-weight: bold; cursor: pointer; width: 90%; font-size: 1rem; }
+        footer { text-align: center; padding: 20px; font-size: 0.7rem; color: #999; }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="icona-corretta.png" alt="Logo" class="logo">
+        <h1>ItaliaGuida</h1>
+        <div class="arabic-title">إرشادات إيطاليا</div>
+        <p style="margin:0; font-size: 0.9rem;">Tutti i bonus a portata di clic</p>
+    </header>
+
+    <div class="container">
+        <div class="grid">
+            <a href="https://www.inps.it/it/it/dettaglio-scheda.schede-servizi-e-strumenti.schede-servizi.assegno-unico-e-universale-per-i-figli-a-carico-55112.assegno-unico-e-universale-per-i-figli-a-carico.html" class="card">
+                <span>👨‍👩‍👦</span>
+                <h3>Assegno Unico</h3>
+                <p>الشيك الموحد</p>
+            </a>
+            <a href="https://www.inps.it/it/it/dettaglio-scheda.schede-servizi-e-strumenti.schede-servizi.bonus-asilo-nido-e-forme-di-supporto-presso-la-propria-abitazione-51105.bonus-asilo-nido.html" class="card">
+                <span>🍼</span>
+                <h3>Bonus Nido</h3>
+                <p>مكافأة الحضانة</p>
+            </a>
+            <a href="https://www.inps.it/it/it/dettaglio-scheda.schede-servizi-e-strumenti.schede-servizi.supporto-per-la-formazione-e-il-lavoro-sfl.html" class="card">
+                <span>🛠️</span>
+                <h3>Bonus Lavoro</h3>
+                <p>دعم العمل</p>
+            </a>
+            <a href="https://www.politicheagricole.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/19543" class="card">
+                <span>🛒</span>
+                <h3>Carta Spesa</h3>
+                <p>بطاقة التسوق</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="newsletter">
+        <h3>Resta Aggiornata / ابق على اطلاع</h3>
+        <p>Ricevi notizie sui nuovi bonus via email</p>
+        <form action="mailto:tuaemail@esempio.com" method="post" enctype="text/plain">
+            <input type="email" name="email" placeholder="Inserisci la tua email..." required>
+            <button type="submit">Iscriviti Ora / اشترك الآن</button>
+        </form>
+    </div>
+
+    <footer>
+        © 2026 ItaliaGuida - Progetto per il Gruppo Facebook
+    </footer>
+</body>
+</html>
