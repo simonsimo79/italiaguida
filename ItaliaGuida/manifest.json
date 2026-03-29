@@ -1,0 +1,15 @@
+{
+  "short_name": "ItaliaGuida",
+  "name": "ItaliaGuida - إرشادات إيطاليا",
+  "icons": [
+    {
+      "src": "iicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#008751",
+  "background_color": "#ffffff"
+}
